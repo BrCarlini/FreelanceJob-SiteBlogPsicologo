@@ -1,10 +1,11 @@
+import Header from "./components/Header/Header";
 
 
 
 export default function App(){
   return(
     <>
-    <h1>Alo</h1>
+    <Header/>
     </>
   )
 }
