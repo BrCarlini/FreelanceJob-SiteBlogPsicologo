@@ -1,6 +1,5 @@
 import { IoMenuOutline } from 'react-icons/io5'
 import styles from './header.module.scss'
-import './header.module.scss'
 import { useState } from 'react'
 
 export default function Header() {
@@ -34,7 +33,7 @@ export default function Header() {
                         </ul>
                     </nav>
 
-                    <div className={styles.container__menuBurger} onClick={() => toggleMenu()}>
+                    <div className={styles.container__btnMenuBurger} onClick={() => toggleMenu()}>
                         <IoMenuOutline size={45} />
                     </div>
 
@@ -53,8 +52,6 @@ export default function Header() {
                     <li>Serviços</li>
                 </ul>
             </nav>
-
-            <h1>Teste</h1>
         </>
     )
 }

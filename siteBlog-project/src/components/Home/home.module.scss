@@ -1,0 +1,27 @@
+.container__sectionHome{
+    .container__textHome{
+        
+        h1{
+            font-size: 3rem;
+            margin-bottom: 1.7rem;
+        }
+
+        p{
+            margin-bottom: .7rem;
+        }
+    }
+
+    .container__imageHome{
+        display: none;
+    }
+}
+
+@media(min-width: 720px){
+
+    .container__sectionHome{
+    
+        .container__imageHome{
+            display: block;
+        }
+    }
+}
