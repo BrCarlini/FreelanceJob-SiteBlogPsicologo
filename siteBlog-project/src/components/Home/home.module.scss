@@ -1,6 +1,6 @@
 .container__sectionHome{
     .container__textHome{
-        
+        width: 70vw;
         h1{
             font-size: 3rem;
             margin-bottom: 1.7rem;
@@ -9,19 +9,47 @@
         p{
             margin-bottom: .7rem;
         }
+
+        button{
+            width: 100%;
+            padding: .5rem 0;
+            border-radius: 5px;
+            border: none;
+            background-color: lightcoral;
+            text-transform: uppercase;
+            font-size: .9rem;
+            color: white;
+        }
     }
 
     .container__imageHome{
         display: none;
+        width: 1200px;
+        background-image: url("https://images.unsplash.com/photo-1616596871445-bb8290a7a2c2?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
 @media(min-width: 720px){
 
     .container__sectionHome{
-    
+        display: flex;
+        gap: 2rem;
         .container__imageHome{
             display: block;
+            width: 75vw;
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .container__sectionHome{
+        text-align: left;
+        width: 75vw;
+        margin: 0 auto;
+        .container__imageHome{
+            width: 100vw;
         }
     }
 }
