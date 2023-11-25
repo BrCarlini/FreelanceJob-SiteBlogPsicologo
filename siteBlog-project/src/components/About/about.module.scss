@@ -1,0 +1,28 @@
+.container__sectionAbout {
+    width: 70vw;
+    margin: 0 auto;
+
+    .container__whoAm {
+        display: flex;
+        gap: 2rem;
+
+        .container__imageAbout {
+            width: 90vw;
+            background-image: url("https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        }
+
+        .container__description {
+            h1 {
+                font-size: 3rem;
+                margin-bottom: 1.7rem;
+            }
+
+            p {
+                margin-bottom: 1rem;
+            }
+        }
+
+    }
+
+
+}
