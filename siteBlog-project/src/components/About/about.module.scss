@@ -1,13 +1,18 @@
 .container__sectionAbout {
-    width: 70vw;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
     .container__whoAm {
         display: flex;
         gap: 2rem;
+        width: 70vw;
 
         .container__imageAbout {
-            width: 90vw;
+            display: none;
+            width: 1200px;
             background-image: url("https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
         }
 
@@ -25,4 +30,39 @@
     }
 
 
+    .container__specialties {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .container__titleSpecialties{
+            text-align: center;
+        }
+    }
+}
+
+@media(min-width: 720px) {
+
+    .container__sectionAbout {
+        .container__whoAm {
+            width: 100vw;
+            padding: 1rem;
+            .container__imageAbout {
+                display: block;
+                
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .container__sectionAbout {
+        text-align: left;
+        width: 75vw;
+        margin: 0 auto;
+
+        .container__imageHome {
+            width: 100vw;
+        }
+    }
 }

@@ -1,4 +1,6 @@
 .container__sectionHome{
+    display: flex;
+    justify-content: center;
     .container__textHome{
         width: 70vw;
         
@@ -35,7 +37,6 @@
 @media(min-width: 720px){
 
     .container__sectionHome{
-        display: flex;
         gap: 2rem;
         .container__imageHome{
             display: block;
