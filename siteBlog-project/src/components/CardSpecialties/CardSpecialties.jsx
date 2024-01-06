@@ -11,7 +11,7 @@ export default function CardSpecialties({title, description, backgroundColor}){
     return(
         <>
         <div className={styles.container__cardSpecialties} style={backgroundCard}>
-            <h2>{title}</h2>
+            <h3>{title}</h3>
             <p>{description}</p>
         </div>
         </>

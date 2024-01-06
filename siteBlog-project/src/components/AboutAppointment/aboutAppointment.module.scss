@@ -1,0 +1,64 @@
+.container__sectionAppointment {
+    display: flex;
+    justify-content: center;
+    
+    .container__contentAppointment{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        gap: 1.8rem;
+
+        .container__aboutQuery{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            h1 {
+                width: max-content;
+                font-size: 1.9rem;
+            }
+        }
+
+        .container__aboutTreatment{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            .container__topicsAppointment{
+                text-align: center;
+
+
+                .container__topicsItem{
+                    margin-bottom: 2rem;
+
+                    .container__topicsDescription{
+                        display: flex;
+                        flex-direction: column;
+                        gap: .5rem;
+
+                        .titleItem{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
+}
+
+
+@media(min-width: 720px){
+
+    .container__topicsItem{
+        display: flex;
+        text-align: left;
+        gap: 1rem;
+        align-items: center;
+
+        .container__topicsDescription{
+            width: 66vw;
+        }
+    }
+}
