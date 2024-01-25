@@ -1,5 +1,7 @@
 import { IoWifiOutline, IoLocationOutline } from "react-icons/io5";
 import styles from './aboutAppointment.module.scss';
+import { GoogleMap } from "@react-google-maps/api";
+import GoogleMaps from "../GoogleMaps/GoogleMaps";
 
 export default function AboutAppointment() {
     return (
@@ -66,7 +68,7 @@ export default function AboutAppointment() {
                     </div>
 
                     <div>
-                        <img src="http://maps.googleapis.com/maps/api/staticmap?center=-23.5983441,-46.6367619&zoom=11&size=250x250"/>
+                        <GoogleMaps/>
                     </div>
                 </div>
 
