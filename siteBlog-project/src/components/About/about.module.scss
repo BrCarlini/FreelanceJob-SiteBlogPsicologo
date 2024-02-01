@@ -63,15 +63,21 @@
 
 @media(min-width: 1200px) {
     .container__sectionAbout {
-        text-align: left;
-        width: 75vw;
-        margin: 0 auto;
 
-        .container__imageHome {
-            width: 100vw;
+
+        .container__whoAm {
+            text-align: left;
+            width: 75vw;
+            margin: 0 auto;
+            .container__imageHome {
+                width: 100vw;
+            }
         }
 
+
         .container__specialties {
+            width: 75vw;
+            margin: 0 auto;
             .container__cardsSpecialties {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 2.5rem;

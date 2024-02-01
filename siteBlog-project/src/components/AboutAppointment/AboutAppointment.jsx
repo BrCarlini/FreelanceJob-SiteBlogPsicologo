@@ -2,6 +2,7 @@ import { IoWifiOutline, IoLocationOutline } from "react-icons/io5";
 import styles from './aboutAppointment.module.scss';
 import { GoogleMap } from "@react-google-maps/api";
 import GoogleMaps from "../GoogleMaps/GoogleMaps";
+import Button from '../Button/Button'
 
 export default function AboutAppointment() {
     return (
@@ -69,6 +70,10 @@ export default function AboutAppointment() {
 
                     <div>
                         <GoogleMaps/>
+                    </div>
+
+                    <div>
+                        <Button text="Tire suas dúvidas"/>
                     </div>
                 </div>
 

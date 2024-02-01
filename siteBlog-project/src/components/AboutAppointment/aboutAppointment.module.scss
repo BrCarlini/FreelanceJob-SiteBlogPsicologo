@@ -1,12 +1,15 @@
 .container__sectionAppointment {
     display: flex;
     justify-content: center;
+    width: 70vw;
+    margin: 0 auto;
     
     .container__contentAppointment{
         display: flex;
         flex-direction: column;
-        width: 70vw;
+        
         gap: 1.8rem;
+        
 
         .container__aboutQuery{
             display: flex;
